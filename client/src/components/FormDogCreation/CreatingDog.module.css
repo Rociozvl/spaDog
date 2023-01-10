@@ -1,0 +1,303 @@
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(33, 141, 141);
+    padding: 5px;
+
+    display: grid;
+    grid-template-rows: 60px 500px auto;
+    grid-template-columns: auto 500px 350px auto;
+
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+
+    gap: 20px;
+}
+.home_btn {
+     /* grid-column: 4 / 5;
+    grid-row: 1 / 2;  */
+   
+    text-decoration: none;
+     height: 50px;
+    width: 80px; 
+    padding: 1px;
+ 
+    display: block; 
+   
+    text-align: center;
+    
+    font-weight: 100;
+    background-color: rgb(0, 0, 0);
+    color: #fcf9ff;
+
+    border-radius: 20px;
+
+    box-shadow: 5px 10px 10px 0px rgba(0,0,0,0.2);
+}
+
+.form_container {
+     background-color: white; 
+     box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.2);
+    border-radius: 110px; 
+
+    padding: 5px;
+
+    gap: 10px;
+
+    display: grid;
+    grid-template-rows: 90px auto;
+    justify-content: center;
+    align-items: center;
+     grid-column: 2 / 3;
+    grid-row: 1 / 4; 
+    
+    width: 90%;
+    height: 90%;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 100%;
+
+    /* gap: 5px; */
+}
+.weight_height_container {
+    height: 40px;
+    width: 300px;
+
+    display: flex;
+    justify-content: center;
+
+    gap: 20px;
+}
+
+.min_container {
+    height: 50px;
+    width: 160px;
+}
+
+.min_container input {
+    height: 50px;
+    width: 160px;
+
+    font-size: 15px;
+
+    outline: none;
+    appearance: none;
+    border: none;
+    text-align: center;
+
+    border-bottom: 1px solid #000000;
+}
+
+.max_container {
+    height: 50px;
+    width: 160px;
+}
+
+.max_container input {
+    height: 50px;
+    width: 160px;
+
+    font-size: 15px;
+
+    outline: none;
+    appearance: none;
+    border: none;
+    text-align: center;
+
+    border-bottom: 1px solid #000000;
+}
+
+.name_lifespan_img_container {
+    height: 50px;
+    width: 350px;
+}
+
+.name_lifespan_img_container input {
+    height: 50px;
+    width: 350px;
+
+    font-size: 15px;
+
+    outline: none;
+    appearance: none;
+    border: none;
+    text-align: center;
+
+    border-bottom: 1px solid #000000;
+}
+
+ 
+
+.select_container {
+    height: 50px;
+    width: 175px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.2);
+    border-radius: 16px;
+}
+
+.select_container select {
+    font-size: 15px;
+
+    border-color: white;
+
+    outline: none;
+    
+    padding: 10px;
+}
+
+.error {
+    height: 30px;
+    width: 350px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.error p {
+    font-size: 12px;
+
+    color: #000000;
+
+    font-weight: 700;
+}
+
+.temps_container {
+    /* background-color: white;
+    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.2);
+    border-radius: 16px; */
+
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+
+    width: 100%;
+    height: 385px;
+
+    padding: 30px;
+    gap: 30px;
+
+    display: grid;
+    grid-template-rows: 50px auto;
+}
+
+.temps_h1_container {
+    border-bottom: 1px solid #050505;
+
+    grid-row: 1 / 2;
+
+    height: 50px;
+    width: 340px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.selected_temps_container {
+    display: flex;
+    gap: 10px;
+
+    flex-wrap: wrap;
+
+    align-content: flex-start;
+    justify-content: center;
+    align-items: center;
+}
+
+.added_temp {
+    width: 85px;
+    height: 40px;
+
+    background-color: white;
+    color: #000000;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 16px;
+    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.2);
+
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.temps_btn_overlay {
+    width: 85px;
+    height: 40px;
+
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.1);
+     backdrop-filter: blur(2px); 
+
+    border-radius: 16px;
+
+    opacity: 0;
+
+    transition: 0.5s;
+}
+
+
+.temps_btn { 
+    width: 85px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    appearance:  none;
+    border: none;
+    outline: none;
+
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: 700;
+
+    cursor: pointer;
+}
+
+.temps_btn_overlay:hover {
+    opacity: 1;
+}
+
+
+
+.create_btn {
+    height: 40px;
+    width: 110px;
+    background-color: #000000;
+
+    color: white;
+
+    font-size: 20px;
+    font-weight: 600;
+
+    border-radius: 16px;
+
+    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.2);
+
+    cursor: pointer;
+
+    transition: 0.5s;
+}
+

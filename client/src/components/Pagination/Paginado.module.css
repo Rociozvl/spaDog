@@ -1,0 +1,37 @@
+ul {
+    list-style: none;
+    
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+li {
+    width: 20px;
+}
+
+
+.btn {
+    border-radius: 20px;
+    background-color: rgb(247, 247, 247);
+    color: #05754a;
+    height: 25px;
+    width: 25px;
+    padding: 5px;
+  font-size: 17px;
+    font-weight: 600;
+
+    display: block;
+
+    box-shadow: 5px 5px 10px 0px rgba(15, 15, 15, 0.2);
+
+    cursor: pointer;
+
+    transition: 0.5s;
+}
+.btn:hover {
+    background-color: #030303;
+    color: rgb(255, 255, 255);
+   
+}

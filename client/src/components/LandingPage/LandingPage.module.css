@@ -1,0 +1,34 @@
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://cdn.pixabay.com/photo/2016/05/26/13/51/dog-1417208_960_720.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title_container {
+    padding: 20px;
+    width: 100%;
+    font-size: 30px;
+    font-family: cursive;;
+}
+.container a {
+    text-decoration: none;
+    display: flex;
+    padding: 10px;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    background-color: rgb(30, 156, 98);
+    color: #f4f4f5;
+    border-radius: 16px;
+    border: 2px solid rgb(18, 63, 42);
+    transition: 0.5s;
+}
+.container a:hover {
+    box-shadow: 5px 5px 10px 0px rgb(19, 66, 44);
+    font-size: 30px;
+    background-color:rgb(19, 94, 59);
+    
+
+}
