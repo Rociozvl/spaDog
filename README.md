@@ -10,13 +10,13 @@ Frontend contiene:
  Paginado para ir buscando y mostrando las siguientes razas,8 razas por pagina.
  
  Ruta de detalle:
- Nombre
- Peso
- Raza
- Altura
- Temperamento
- Posibles años de vida
- Imagen
+- Nombre
+-Peso
+-Raza
+-Altura
+-Temperamento
+-Posibles años de vida
+-Imagen
  
  Ruta de creación de Raza:
  Formulario controlado.
